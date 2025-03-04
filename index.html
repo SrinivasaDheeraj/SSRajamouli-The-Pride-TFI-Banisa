@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SS Rajamouli - Home</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="filmography.html">Filmography</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="bts.html">BTS</a></li>
+        <li><a href="upcoming-project.html">Upcoming Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="images/hero-image.jpg" alt="SS Rajamouli">
+    <div class="bio">
+      <h1>SS Rajamouli</h1>
+      <p>S.S. Rajamouli, born Koduri Srisaila Sri Rajamouli on October 10, 1973, is a visionary Indian filmmaker renowned for his groundbreaking contributions to Indian cinema, particularly in the Telugu film industry. Known for his grand storytelling, meticulous attention to detail, and larger-than-life cinematic vision, Rajamouli has redefined the scale of Indian films with epic blockbusters like the Baahubali series (Baahubali: The Beginning and Baahubali 2: The Conclusion), which garnered international acclaim and shattered box office records. His ability to blend traditional Indian folklore with cutting-edge visual effects has set new benchmarks in filmmaking. With recent global successes like RRR, which won an Academy Award for its song "Naatu Naatu," Rajamouli has cemented his position as a master storyteller and a pioneer in bringing Indian cinema to the world stage. His work is celebrated for its emotional depth, cultural richness, and unparalleled spectacle, making him one of the most influential directors of his generation.</p>
+    </div>
+  </section>
+
+  <!-- Search Bar -->
+  <section class="search">
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search movies or cast..." onkeyup="showSuggestions()">
+      <button onclick="search()">Search</button>
+      <div id="suggestions" class="suggestions"></div>
+    </div>
+  </section>
+
+  <!-- Movie Cards Section (for cast search results) -->
+  <section id="movieResults" class="movie-results">
+    <!-- Movie cards will be dynamically added here -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 TFI Banisa Creation</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

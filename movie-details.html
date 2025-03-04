@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Details</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="filmography.html">Filmography</a></li>
+        <li><a href="awards.html">Awards</a></li>
+        <li><a href="bts.html">BTS</a></li>
+        <li><a href="upcoming-project.html">Upcoming Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Back Button -->
+  <div class="back-button">
+    <button onclick="goBack()">← Back to Movies</button>
+  </div>
+
+  <!-- Movie Details -->
+  <section class="movie-details">
+    <h1 id="movieTitle">Movie Title</h1>
+    <p id="movieYear">Year: </p>
+    <p id="movieCast">Cast: </p>
+    <p id="movieProducer">Producer: </p>
+    <p id="movieAwards">Awards: </p>
+    <div class="trailer-container">
+      <iframe id="movieTrailer" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+  <div class="rating">
+    <h3>Rate this movie:</h3>
+    <div class="stars" id="starRating"></div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 SS Rajamouli Fan Club</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
